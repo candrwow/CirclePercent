@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CoverArcPercent">
+        <!--外圆的半径-->
+        <attr name="radius" format="dimension|reference" />
+        <!--内环的半径-->
+        <attr name="ringRadius" format="dimension|reference" />
+        <!--外圆的背景颜色，最好透明-->
+        <attr name="circleBackground" format="color" />
+        <!--内环的背景颜色，最好灰色半透明-->
+        <attr name="ringBackground" format="color" />
+        <!--外圆的颜色-->
+        <attr name="circleLineColor" format="color" />
+        <!--外圆的粗细-->
+        <attr name="circleLineSize" format="dimension|reference" />
+        <!--文字颜色-->
+        <attr name="textColor" format="color" />
+
+    </declare-styleable>
+</resources>
